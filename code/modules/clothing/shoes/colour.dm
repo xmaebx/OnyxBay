@@ -2,6 +2,7 @@
 	name = "black shoes"
 	icon_state = "black"
 	desc = "A pair of black shoes."
+	armor = list(melee = 40, bullet = 40, laser = 40, energy = 40, bomb = 40, bio = 40, rad = 40)
 
 	cold_protection = FEET
 	min_cold_protection_temperature = SHOE_MIN_COLD_PROTECTION_TEMPERATURE
@@ -38,11 +39,13 @@
 	name = "white shoes"
 	icon_state = "white"
 	permeability_coefficient = 0.01
+	armor = list(melee = 40, bullet = 40, laser = 40, energy = 40, bomb = 40, bio = 40, rad = 40)
 
 /obj/item/clothing/shoes/leather
 	name = "leather shoes"
 	desc = "A sturdy pair of leather shoes."
 	icon_state = "leather"
+	armor = list(melee = 40, bullet = 40, laser = 40, energy = 40, bomb = 40, bio = 40, rad = 40)
 
 /obj/item/clothing/shoes/rainbow
 	name = "rainbow shoes"
